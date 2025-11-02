@@ -1,4 +1,10 @@
 '''
+Plotting the expected depolarisation according to the External Faraday Dispersion model (e.g. Sokoloff et al. 1998)
+This is equivalent to the 'm2' model of RM-Tools QU-fitting
+
+y-axis is the amount of depolarisation (p/p_0), with p_0 being the intrinsic fractional polarisation. No depolarisation = 1; Complete depolarisation = 0
+
+x-axis shows frequency as the ticks, but is in fact linear to lambda^2 [m^2]
 '''
 
 import numpy as np
